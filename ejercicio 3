@@ -1,0 +1,12 @@
+import math
+a=int(input("ingrese el valor de a: "))
+b=int(input("ingrese el valor de b: "))
+c=int(input("ingrese el valor de c: "))
+D=(((b**2)-(4*a*c)))
+if (D>0):
+   print("La ecuacion tiene dos Soluciones")
+    
+elif D==0:
+    print("La ecuacion tiene una Solucion")
+else:
+    print("La ecuacion tiene no Soluciones Reales")
