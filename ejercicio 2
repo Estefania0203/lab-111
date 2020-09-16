@@ -1,0 +1,14 @@
+h=int(input("Hora: "))
+m=int(input("Minuto: "))
+s=int(input("Segundo: "))
+
+s+=1
+if s>59:
+    m+=1
+    s=0
+if m>59:
+    h+=1
+    m=0
+if h>23:
+    h=0
+print(str(h)+'h:'+str(m)+'m:'+str(s)+'s')
